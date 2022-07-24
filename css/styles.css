@@ -1,0 +1,112 @@
+/*Фон*/
+/* фон шапки   #FFFFFF;*/
+/*Hero   #2F303A;*/
+/*button   #2196F3;*/
+/*фон Переваги підприємства + Чим ми займаємося    #F5F5F5;*/
+/*фон Наша команда    #F5F4FA;*/
+/*футер   #2F303A;*/
+
+/*Текст*/
+/*логотип   #2196F3;*/
+/*логотип   #000000*/
+/*Hero h1 + button + footer p   #FFFFFF;*/
+/*nav+ h2 + h3   #212121;*/
+/*tel + p   #757575;*/
+
+/*footer mail + tel   rgba(255, 255, 255, 0.6);*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-nav-text-color: #212121;
+  --accent-color: #2196f3;
+  --accent-logo-color: #000000;
+  --primary-white-color: #ffffff;
+  --address-color: rgba(255, 255, 255, 0.6);
+
+  --hero-color: #2f303a;
+  --workarea-color: #f5f5f5;
+  --team-color: #f5f4fa;
+  --footer-color: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--accent-logo-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+span {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.link {
+  color: var(--title-nav-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.hero,
+.button {
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.hero {
+  background-color: var(--hero-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.workarea {
+  background-color: var(--workarea-color);
+}
+.title {
+  color: var(--title-nav-text-color);
+}
+.team {
+  background-color: var(--team-color);
+}
+.footer {
+  color: var(--primary-white-color);
+  background-color: var(--footer-color);
+}
+.footer-logo {
+  color: var(--primary-white-color);
+}
+.address {
+  color: var(--address-color);
+}
+.item {
+  color: var(--address-color);
+}
