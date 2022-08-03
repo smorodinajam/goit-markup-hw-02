@@ -49,6 +49,9 @@ body {
 }
 
 /*-----------HEADER------------*/
+.header-page {
+  background-color: var(--primary-white-color);
+}
 .header-logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
@@ -98,7 +101,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -193,5 +195,49 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: var(--typical-letter-spacing);
+}
+
+/*------------PORTFOLIO--------------*/
+/*----------FILTER-BUTTON------------*/
+.portfolio-page {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--adv-workarea-color);
+}
+.portfolio-btn,
+.portfolio-list-item,
+.portfolio-list-text {
+  font-family: 'Roboto', sans-serif;
+}
+.portfolio-btn {
+  color: var(--title-color);
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: var(--typical-letter-spacing);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-list-item {
+  background-color: var(--primary-white-color);
+}
+.portfolio-list-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list-text {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: var(--typical-letter-spacing);
 }
