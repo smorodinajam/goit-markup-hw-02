@@ -40,6 +40,7 @@ footer mail + tel   rgba(255, 255, 255, 0.6);
 body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-white-color);
 }
 .list {
   list-style: none;
@@ -49,11 +50,9 @@ body {
 }
 
 /*-----------HEADER------------*/
-.header-page {
-  background-color: var(--primary-white-color);
-}
 .header-logo {
   color: #000000;
+  /*border-color: inherit;*/
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -104,12 +103,11 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+/*.hero-btn:hover,
+.hero-btn:focus*/
 
 /*-----------ADVANTAGES------------*/
-.advantages,
-.workarea {
-  background-color: var(--adv-workarea-color);
-}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -202,7 +200,9 @@ body {
 /*----------FILTER-BUTTON------------*/
 .portfolio-page {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--adv-workarea-color);
+}
+.header-item .active {
+  color: var(--accent-color);
 }
 .portfolio-btn,
 .portfolio-list-item,
