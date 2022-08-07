@@ -74,6 +74,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.header-item .active {
+  color: var(--accent-color);
+}
 
 .link:hover,
 .link:focus {
@@ -200,9 +203,7 @@ body {
 .portfolio-page {
   font-family: 'Roboto', sans-serif;
 }
-.header-item .active {
-  color: var(--accent-color);
-}
+
 .portfolio-btn,
 .portfolio-list-item,
 .portfolio-list-text {
@@ -220,8 +221,7 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  background-color: #188ce8;
 }
 .portfolio-list-item {
   background-color: var(--primary-white-color);
